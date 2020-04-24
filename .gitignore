@@ -23,6 +23,7 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
+[Bb]in/
 [Oo]bj/
 [Ll]og/
 
@@ -213,6 +214,7 @@ _pkginfo.txt
 !?*.[Cc]ache/
 
 # Others
+ClientBin/
 ~$*
 *~
 *.dbmdl
@@ -321,6 +323,9 @@ OpenCover/
 
 # Azure Stream Analytics local run output
 ASALocalRun/
+
+# MSBuild Binary and Structured Log
+*.binlog
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
